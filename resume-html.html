@@ -6,155 +6,209 @@
     <title>David Veksler - Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .resume-container {
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 40px;
+            border-radius: 8px;
         }
         h1, h2 {
             color: #2c3e50;
+            margin-top: 0;
         }
         h1 {
-            border-bottom: 2px solid #2c3e50;
+            font-size: 2.5em;
+            border-bottom: 2px solid #3498db;
             padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         h2 {
-            margin-top: 20px;
+            font-size: 1.8em;
+            margin-top: 30px;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+        }
+        .contact-info {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 5px 0;
         }
         ul {
             padding-left: 20px;
         }
-        .contact-info {
-            margin-bottom: 20px;
+        li {
+            margin-bottom: 8px;
         }
         .job-title {
             font-weight: bold;
+            color: #2980b9;
+            margin-bottom: 0;
         }
         .company {
             font-weight: bold;
+            margin-top: 5px;
+            margin-bottom: 0;
         }
         .date {
             font-style: italic;
+            color: #7f8c8d;
+            margin-top: 0;
+        }
+        .job, .education-item {
+            margin-bottom: 25px;
+        }
+        #skills p {
+            background-color: #e8f6f3;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        @media print {
+            body {
+                background-color: #ffffff;
+            }
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>David Veksler</h1>
-        <div class="contact-info">
-            <p>Email: davidleoveksler@gmail.com</p>
-            <p>Phone: +1 470-424-0056</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/davidveksler">linkedin.com/in/davidveksler</a></p>
-            <p>GitHub: <a href="https://github.com/davidveksler">github.com/davidveksler</a></p>
-        </div>
-    </header>
+    <div class="resume-container">
+        <header>
+            <h1>David Veksler</h1>
+            <div class="contact-info">
+                <p>📧 Email: davidleoveksler@gmail.com</p>
+                <p>📞 Phone: +1 470-424-0056</p>
+                <p>🔗 LinkedIn: <a href="https://linkedin.com/in/davidveksler">linkedin.com/in/davidveksler</a></p>
+                <p>🐙 GitHub: <a href="https://github.com/davidveksler">github.com/davidveksler</a></p>
+            </div>
+        </header>
 
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Software Engineering Leader with over 19 years of experience driving technological advancements and team excellence in high-growth environments. Proven track record in:</p>
-        <ul>
-            <li>Engineering Leadership: Scaled and mentored high-performance teams of 20+ engineers across international locations, fostering a culture of innovation and continuous improvement.</li>
-            <li>Cloud & Blockchain Expertise: Pioneered cloud infrastructure migrations and blockchain initiatives, including successful launches of cryptocurrency products and NFT projects.</li>
-            <li>Agile Transformation: Implemented agile methodologies and best practices, significantly enhancing team productivity and product delivery timelines.</li>
-            <li>Full-Stack Development: Extensive experience in both front-end and back-end technologies, with a focus on scalable, secure, and user-centric solutions.</li>
-            <li>Cross-functional Collaboration: Effectively partnered with product, marketing, and C-level executives to deliver innovative solutions that meet both user needs and business goals.</li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-
-        <div class="job">
-            <p class="job-title">Senior Software Engineering Manager</p>
-            <p class="company">Celsius</p>
-            <p class="date">Mar 2022 - Present (2 years 6 months)</p>
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>Software Engineering Leader with over 19 years of experience driving technological advancements and team excellence in high-growth environments. Proven track record in:</p>
             <ul>
-                <li>Led and scaled three international development teams (24 engineers) across the US, Serbia, and Romania, implementing agile methodologies to ensure efficient project execution.</li>
-                <li>Spearheaded the launch of four major wrapped token projects, including cxBTC with $100 million TVL, utilizing innovative proof-of-reserve mechanisms.</li>
-                <li>Designed and led the integration of MetaMask with the Celsius wallet, significantly enhancing user experience and functionality.</li>
-                <li>Engineered FireBlocks API clients to automate token management across various blockchain networks, improving operational efficiency and compliance.</li>
-                <li>Collaborated with cross-functional teams (product, marketing, compliance, finance) to align technical development with business objectives and regulatory requirements.</li>
+                <li>Engineering Leadership: Scaled and mentored high-performance teams of 20+ engineers across international locations, fostering a culture of innovation and continuous improvement.</li>
+                <li>Cloud & Blockchain Expertise: Pioneered cloud infrastructure migrations and blockchain initiatives, including successful launches of cryptocurrency products and NFT projects.</li>
+                <li>Agile Transformation: Implemented agile methodologies and best practices, significantly enhancing team productivity and product delivery timelines.</li>
+                <li>Full-Stack Development: Extensive experience in both front-end and back-end technologies, with a focus on scalable, secure, and user-centric solutions.</li>
+                <li>Cross-functional Collaboration: Effectively partnered with product, marketing, and C-level executives to deliver innovative solutions that meet both user needs and business goals.</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="job">
-            <p class="job-title">Chief Technology Officer</p>
-            <p class="company">Royalty Exchange</p>
-            <p class="date">Jan 2020 - Oct 2021 (1 year 10 months)</p>
-            <ul>
-                <li>Orchestrated and guided cross-functional teams in the US and Brazil through a critical platform migration from Python/Django to Django REST Framework and ReactJS, enhancing system capabilities and user experience.</li>
-                <li>Revolutionized company processes by implementing agile software development practices, significantly boosting efficiency, productivity, and fostering a collaborative team environment.</li>
-                <li>Mentored and cultivated a team of developers, fostering their growth into technology leaders and key contributors.</li>
-                <li>Led the development of the first Ethereum NFT designed to pay real-world music royalties, setting a new precedent in the intersection of blockchain technology and the music industry.</li>
-            </ul>
-        </div>
+        <section id="experience">
+            <h2>Experience</h2>
 
-        <div class="job">
-            <p class="job-title">Director of Technology</p>
-            <p class="company">Foundation for Economic Education</p>
-            <p class="date">Dec 2015 - Jan 2020 (4 years 2 months)</p>
-            <ul>
-                <li>Recruited, nurtured, and led a high-caliber technology team encompassing developers, designers, QA, and product experts, fostering a culture of excellence and innovation.</li>
-                <li>Spearheaded the creation of a state-of-the-art social media marketing analytics platform (Jellyfish Insights), backed by a $3 million grant, setting new standards in digital marketing analysis.</li>
-                <li>Authored insightful research reports and presented findings at national conferences, establishing thought leadership in technology applications in economics and education.</li>
-                <li>Coached and guided teams in domain-driven design, leading to the development of sophisticated web applications using technologies like Bootstrap, HTML5, JavaScript ES6, Webpack, and React.</li>
-                <li>Managed the deployment of RESTful APIs using ASP.Net (C#, razor, MVC, Web API, Entity Framework) across Windows and Linux platforms in AWS environments.</li>
-            </ul>
-        </div>
+            <div class="job">
+                <p class="job-title">Senior Software Engineering Manager</p>
+                <p class="company">Celsius</p>
+                <p class="date">Mar 2022 - Present (2 years 6 months)</p>
+                <ul>
+                    <li>Led and scaled three international development teams (24 engineers) across the US, Serbia, and Romania, implementing agile methodologies to ensure efficient project execution.</li>
+                    <li>Spearheaded the launch of four major wrapped token projects, including cxBTC with $100 million TVL, utilizing innovative proof-of-reserve mechanisms.</li>
+                    <li>Designed and led the integration of MetaMask with the Celsius wallet, significantly enhancing user experience and functionality.</li>
+                    <li>Engineered FireBlocks API clients to automate token management across various blockchain networks, improving operational efficiency and compliance.</li>
+                    <li>Collaborated with cross-functional teams (product, marketing, compliance, finance) to align technical development with business objectives and regulatory requirements.</li>
+                </ul>
+            </div>
 
-        <div class="job">
-            <p class="job-title">Software Architect</p>
-            <p class="company">EF Education First</p>
-            <p class="date">Jan 2011 - Nov 2015 (4 years 11 months)</p>
-            <ul>
-                <li>Directed agile development teams in creating highly successful web and mobile applications using .Net/C#, Javascript, ReactJS, & and SQL Server.</li>
-                <li>Implemented modern development practices including Scrum, continuous integration, Git, and code review, significantly elevating team efficiency and productivity.</li>
-                <li>Conducted on-site visits and customer interviews to gather and define precise requirements for new product developments, ensuring customer-centric solutions.</li>
-                <li>Collaborated with diverse product and academic teams to develop innovative applications, integrating real-time academic performance feeds and in-classroom media recording features.</li>
-                <li>Pioneered the migration of the technology stack from on premise datacenter environments to the Amazon Web Services cloud platform, enhancing scalability and performance.</li>
-            </ul>
-        </div>
+            <div class="job">
+                <p class="job-title">Chief Technology Officer</p>
+                <p class="company">Royalty Exchange</p>
+                <p class="date">Jan 2020 - Oct 2021 (1 year 10 months)</p>
+                <ul>
+                    <li>Orchestrated and guided cross-functional teams in the US and Brazil through a critical platform migration from Python/Django to Django REST Framework and ReactJS, enhancing system capabilities and user experience.</li>
+                    <li>Revolutionized company processes by implementing agile software development practices, significantly boosting efficiency, productivity, and fostering a collaborative team environment.</li>
+                    <li>Mentored and cultivated a team of developers, fostering their growth into technology leaders and key contributors.</li>
+                    <li>Led the development of the first Ethereum NFT designed to pay real-world music royalties, setting a new precedent in the intersection of blockchain technology and the music industry.</li>
+                </ul>
+            </div>
 
-        <div class="job">
-            <p class="job-title">Senior Application Engineer</p>
-            <p class="company">Match</p>
-            <p class="date">Aug 2008 - Oct 2010 (2 years 3 months)</p>
-            <ul>
-                <li>Served as the first developer on the highly successful Match.com mobile apps division, writing the iOS and Palm apps.</li>
-                <li>Engineered and maintained a diverse array of mobile applications and secure APIs for iPhone, Windows Phone, and Android platforms.</li>
-                <li>Developed and managed a scalable SMS notification platform, effectively reaching over 12 million Match.com users.</li>
-            </ul>
-        </div>
-    </section>
+            <div class="job">
+                <p class="job-title">Director of Technology</p>
+                <p class="company">Foundation for Economic Education</p>
+                <p class="date">Dec 2015 - Jan 2020 (4 years 2 months)</p>
+                <ul>
+                    <li>Recruited, nurtured, and led a high-caliber technology team encompassing developers, designers, QA, and product experts, fostering a culture of excellence and innovation.</li>
+                    <li>Spearheaded the creation of a state-of-the-art social media marketing analytics platform (Jellyfish Insights), backed by a $3 million grant, setting new standards in digital marketing analysis.</li>
+                    <li>Authored insightful research reports and presented findings at national conferences, establishing thought leadership in technology applications in economics and education.</li>
+                    <li>Coached and guided teams in domain-driven design, leading to the development of sophisticated web applications using technologies like Bootstrap, HTML5, JavaScript ES6, Webpack, and React.</li>
+                    <li>Managed the deployment of RESTful APIs using ASP.Net (C#, razor, MVC, Web API, Entity Framework) across Windows and Linux platforms in AWS environments.</li>
+                </ul>
+            </div>
 
-    <section id="education">
-        <h2>Education</h2>
+            <div class="job">
+                <p class="job-title">Software Architect</p>
+                <p class="company">EF Education First</p>
+                <p class="date">Jan 2011 - Nov 2015 (4 years 11 months)</p>
+                <ul>
+                    <li>Directed agile development teams in creating highly successful web and mobile applications using .Net/C#, Javascript, ReactJS, & and SQL Server.</li>
+                    <li>Implemented modern development practices including Scrum, continuous integration, Git, and code review, significantly elevating team efficiency and productivity.</li>
+                    <li>Conducted on-site visits and customer interviews to gather and define precise requirements for new product developments, ensuring customer-centric solutions.</li>
+                    <li>Collaborated with diverse product and academic teams to develop innovative applications, integrating real-time academic performance feeds and in-classroom media recording features.</li>
+                    <li>Pioneered the migration of the technology stack from on premise datacenter environments to the Amazon Web Services cloud platform, enhancing scalability and performance.</li>
+                </ul>
+            </div>
 
-        <div class="education-item">
-            <p class="job-title">MSIS, Masters in Management of Information Systems</p>
-            <p class="company">Mays Business School - Texas A&M University</p>
-            <p class="date">2003 - 2004</p>
-        </div>
+            <div class="job">
+                <p class="job-title">Senior Application Engineer</p>
+                <p class="company">Match</p>
+                <p class="date">Aug 2008 - Oct 2010 (2 years 3 months)</p>
+                <ul>
+                    <li>Served as the first developer on the highly successful Match.com mobile apps division, writing the iOS and Palm apps.</li>
+                    <li>Engineered and maintained a diverse array of mobile applications and secure APIs for iPhone, Windows Phone, and Android platforms.</li>
+                    <li>Developed and managed a scalable SMS notification platform, effectively reaching over 12 million Match.com users.</li>
+                </ul>
+            </div>
+        </section>
 
-        <div class="education-item">
-            <p class="job-title">Data Science: Python programming, research design, data modeling, & machine learning</p>
-            <p class="company">General Assembly</p>
-            <p class="date">2016</p>
-            <p>Used Python data science tools to create complex multi-step analytics processes using Python frameworks</p>
-        </div>
+        <section id="education">
+            <h2>Education</h2>
 
-        <div class="education-item">
-            <p class="job-title">Bachelor of Science, Economics & Political Science (dual-major)</p>
-            <p class="company">Texas A&M University</p>
-            <p class="date">1999 - 2003</p>
-        </div>
-    </section>
+            <div class="education-item">
+                <p class="job-title">MSIS, Masters in Management of Information Systems</p>
+                <p class="company">Mays Business School - Texas A&M University</p>
+                <p class="date">2003 - 2004</p>
+            </div>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Blockchain • FinTech • Agile Methodologies • Data Science • Cloud Computing • Data Security • Leadership • Technical Staff Management • Financial Regulation • .NET Framework</p>
-    </section>
+            <div class="education-item">
+                <p class="job-title">Data Science: Python programming, research design, data modeling, & machine learning</p>
+                <p class="company">General Assembly</p>
+                <p class="date">2016</p>
+                <p>Used Python data science tools to create complex multi-step analytics processes using Python frameworks</p>
+            </div>
+
+            <div class="education-item">
+                <p class="job-title">Bachelor of Science, Economics & Political Science (dual-major)</p>
+                <p class="company">Texas A&M University</p>
+                <p class="date">1999 - 2003</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Blockchain • FinTech • Agile Methodologies • Data Science • Cloud Computing • Data Security • Leadership • Technical Staff Management • Financial Regulation • .NET Framework</p>
+        </section>
+    </div>
 </body>
 </html>
