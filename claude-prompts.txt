@@ -1,0 +1,13 @@
+Can you convert my resume to HTML?
+
+Retain the content.  
+
+Structure it for ATS parsing (when converted to PDF)
+
+--- 
+
+Can you format/style this to make it easier to read?
+
+-- 
+
+Can you optimize my resume to get past ATS and get recruiters to notice me for engineering management roles?   Be creative.  Here's my resume: 
