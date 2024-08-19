@@ -11,3 +11,9 @@ Can you format/style this to make it easier to read?
 -- 
 
 Can you optimize my resume to get past ATS and get recruiters to notice me for engineering management roles?   Be creative.  Here's my resume: 
+
+--
+
+Review the provided resume and make minor changes to make it more effective with recruiters and ATS for a software engineering management role at a crypto/fintech company.
+
+Use your imagination to make relevant changes, and I'll update them with actual values.
