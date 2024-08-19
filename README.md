@@ -20,6 +20,10 @@ Since LinkedIn dropped their resume builder tool, I needed a replacement:
 * I created a custom project in Claude and uploaded my GitHub project history, personal background, etc, so Claude knows all about my work experience.
 * Claude performed a line-by-line optimization of each line.  I had it make up details as a template, which I then replace with correct values.  Using git made this easy.
 
+3: Helpful starting points (requires LinkedIn Premium)
+* Don't job look for job postings.  Start by applying in the companie's your interested in.  Contact recruiters directly.
+* Filter the search by recruiters actively hiring for a specific job titles: https://www.linkedin.com/search/results/people/?activelyHiringForJobTitles=%5B%221685%22%5D&keywords=engineers&origin=FACETED_SEARCH&sid=teV&spellCorrectionEnabled=false
+* Search for hiring managements who are actively hiring: https://www.linkedin.com/search/results/people/?keywords=hiring&sid=6-r
 
 
 Prompts:

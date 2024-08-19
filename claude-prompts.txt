@@ -17,3 +17,7 @@ Can you optimize my resume to get past ATS and get recruiters to notice me for e
 Review the provided resume and make minor changes to make it more effective with recruiters and ATS for a software engineering management role at a crypto/fintech company.
 
 Use your imagination to make relevant changes, and I'll update them with actual values.
+
+--
+
+Write a brief intro message to send to hiring recruiters on LinkedIn.  You can use the background from my resume:  
