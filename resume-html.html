@@ -119,6 +119,26 @@
             .resume-container {
                 box-shadow: none;
             }
+
+            #skills .row {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+            #skills .col-md-4 {
+                width: 33.33%;
+                flex: 0 0 auto;
+            }
+
+            #skills ul.list-unstyled {
+                padding-left: 0.25rem;
+            }
+
+            #skills ul.list-unstyled li {
+                font-size: 10px;
+                line-height: 1.2;
+                margin-bottom: 0.1rem;
+            }
         }
     </style>
 </head>
@@ -143,7 +163,7 @@
 
             <section id="summary">
                 <h2>Summary</h2>
-                <p class="mb-1">Software Engineering Leader with over 19 years of experience driving technological
+                <p class="mb-1">Software Engineering Leader with 20 years of experience driving technological
                     advancements and team excellence in high-growth environments. Proven track record in:</p>
                 <ul class="list-unstyled">
                     <li><i class="bi bi-check-circle-fill me-1 text-success"></i>Engineering Leadership: Scaled and
@@ -167,12 +187,14 @@
                     <p class="company">Celsius Network (DeFi & CyberDefense teams)</p>
                     <p class="date">Mar 2022 - Present (2 years 6 months)</p>
                     <ul class="list-unstyled">
-                        <li><i class="bi bi-dot me-1"></i>Spearheaded cross-functional collaboration to launch wrapped
-                            token projects, ensuring regulatory compliance and market fit.</li>
-                        <li><i class="bi bi-dot me-1"></i>Led and scaled three international development teams, growing
-                            from 15 to 24 engineers across the US, Serbia, and Romania.</li>
                         <li><i class="bi bi-dot me-1"></i>Launched multiple wrapped token projects, including cxBTC with
                             $100 million TVL. Implemented DeFi yield strategies on Ethereum and Polygon.</li>
+                        <li><i class="bi bi-dot me-1"></i>Led and scaled three international development teams, growing
+                            from 15 to 24 engineers across the US, Serbia, and Romania.</li>
+
+                        <li><i class="bi bi-dot me-1"></i>Spearheaded cross-functional collaboration to launch wrapped
+                            token projects, ensuring regulatory compliance and market fit.</li>
+
                         <li><i class="bi bi-dot me-1"></i>Designed and led the integration of MetaMask with the Celsius
                             wallet.</li>
                         <li><i class="bi bi-dot me-1"></i>Engineered FireBlocks API clients to audit 5M+ customer vaults
@@ -265,67 +287,72 @@
                 </div>
             </section>
 
+
             <section id="skills">
                 <h2>Technical Expertise</h2>
                 <div class="row">
-                    <div class="col-md-6 mb-2">
+                    <div class="col-md-4 mb-2">
                         <p class="p-1 mb-1"><strong>Programming Languages:</strong></p>
                         <ul class="list-unstyled">
-                            <li><i class="bi bi-code-square me-1"></i>Expert: C#, .Net Framework (Services, Web, Mobile, & Desktop), SQL</li>
+                            <li><i class="bi bi-code-square me-1"></i>Expert: C#, .Net Framework (Services, Web, Mobile,
+                                & Desktop), SQL, HTML/CSS</li>
                             <li><i class="bi bi-code-square me-1"></i>Proficient: TypeScript, JavaScript, Python</li>
-                                <li><i class="bi bi-code-square me-1"></i>Working knowledge: Node.js, Solidity, PHP, Rust, Objective C,</li>
+                            <li><i class="bi bi-code-square me-1"></i>Familiar: Node.js, Solidity, PHP, Rust,
+                                Objective C</li>
                         </ul>
-                    </div>
-                    <div class="col-md-6 mb-2">
                         <p class="p-1 mb-1"><strong>Web Technologies:</strong></p>
                         <ul class="list-unstyled">
                             <li><i class="bi bi-globe me-1"></i>Frontend: React, HTML5, CSS3, Bootstrap</li>
-                            <li><i class="bi bi-globe me-1"></i>Backend: ASP.NET Core, Blazor, Node.js, Umbraco, Django, WordPress, WooCommerce</li>
+                            <li><i class="bi bi-globe me-1"></i>Backend: ASP.NET Core, Blazor, Node.js, Umbraco, Django,
+                                WordPress, WooCommerce</li>
                             <li><i class="bi bi-globe me-1"></i>API Design: RESTful, SOAP</li>
                         </ul>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-2">
+                    <div class="col-md-4 mb-2">
                         <p class="p-1 mb-1"><strong>Blockchain & Cryptocurrency:</strong></p>
                         <ul class="list-unstyled">
                             <li><i class="bi bi-currency-bitcoin me-1"></i>Platforms: Bitcoin, Ethereum, Polygon</li>
-                            <li><i class="bi bi-currency-bitcoin me-1"></i>Tools: Web3.js, Ethers.js, MetaMask API, MEV (flashbots)</li>
-                            <li><i class="bi bi-currency-bitcoin me-1"></i>Architecture: trading engine design, market making, DeFi yield, multisig custody, tx fee optimization</li>
+                            <li><i class="bi bi-currency-bitcoin me-1"></i>Tools: Web3.js, Ethers.js, MetaMask API, MEV
+                                (flashbots)</li>
+                            <li><i class="bi bi-currency-bitcoin me-1"></i>Architecture: trading engine design, market
+                                making, DeFi yield, multisig custody, tx fee optimization</li>
                         </ul>
-                    </div>
-                    <div class="col-md-6 mb-2">
                         <p class="p-1 mb-1"><strong>Cloud & DevOps:</strong></p>
                         <ul class="list-unstyled">
-                            <li><i class="bi bi-cloud-fill me-1"></i>Platforms: AWS (EC2, S3, RDS, Elasticache), Cloudflare</li>
-                            <li><i class="bi bi-cloud-fill me-1"></i>CI/CD: TeamCity, GitHub Actions</li>
-                            <li><i class="bi bi-cloud-fill me-1"></i>Databases: Sql Server, PostgreSQL, MySQL, Redis</li>
+                            <li><i class="bi bi-cloud-fill me-1"></i>Platforms: AWS (EC2, S3, RDS, ElastiCache),
+                                Cloudflare</li>
+                            <li><i class="bi bi-cloud-fill me-1"></i>CI/CD: TeamCity, git, GitHub Actions</li>
+                            <li><i class="bi bi-cloud-fill me-1"></i>Databases: Sql Server, PostgreSQL, MySQL, Redis,
+                                T-SQL</li>
                             <li><i class="bi bi-lock-fill me-1"></i>Security: Public Key Infrastructure, encryption
                                 standards</li>
                         </ul>
                     </div>
-                </div>
-
-                <div class="row">
-
-                    <div class="col-md-6 mb-2">
+                    <div class="col-md-4 mb-2">
                         <p class="p-1 mb-1"><strong>Methodologies:</strong></p>
                         <ul class="list-unstyled">
                             <li><i class="bi bi-diagram-3-fill me-1"></i>Agile: Scrum, Kanban, SAFe, Waterfall</li>
-                            <li><i class="bi bi-diagram-3-fill me-1"></i>Architecture: Domain-driven design, Event-driven, Queues, n-tier</li>
+                            <li><i class="bi bi-diagram-3-fill me-1"></i>Architecture: Domain-driven design,
+                                Event-driven, Queues, n-tier</li>
                             <li><i class="bi bi-bug-fill me-1"></i>Testing: TDD, Automated testing</li>
                         </ul>
-                    </div>
-
-                    <div class="col-md-6 mb-2">
                         <p class="p-1 mb-1"><strong>FinTech-specific:</strong></p>
                         <ul class="list-unstyled">
-                            <li><i class="bi bi-cash-coin me-1"></i>Payment Integrations: Stripe, Plaid, ACH, ATM payouts</li>
+                            <li><i class="bi bi-cash-coin me-1"></i>Payment Integrations: Stripe, Plaid, ACH, ATM
+                                payouts</li>
                             <li><i class="bi bi-shield-check me-1"></i>Compliance: KYC/AML protocols, financial
                                 regulations</li>
                             <li><i class="bi bi-lock-fill me-1"></i>Security: Public Key Infrastructure, encryption
                                 standards</li>
                         </ul>
                     </div>
-
                 </div>
+            </section>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
