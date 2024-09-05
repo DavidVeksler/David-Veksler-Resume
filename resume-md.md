@@ -1,75 +1,77 @@
 # David Veksler
 
-davidleoveksler@gmail.com | +1 470-424-0056 | [linkedin.com/in/davidveksler](https://linkedin.com/in/davidveksler) | [github.com/davidveksler](https://github.com/davidveksler)
+davidleoveksler@gmail.com | +1 470-424-0056 | Denver, Colorado | [linkedin.com/in/davidveksler](https://linkedin.com/in/davidveksler) | [github.com/davidveksler](https://github.com/davidveksler) 
+
+
 
 ## Summary
 
-Innovative Tech Executive with 20 years of success architecting and launching mission-critical software platforms. Proven ability to lead global engineering teams, pioneer FinTech initiatives, and align technology strategies with business goals.
+Trailblazing Tech Executive with 20 years of success architecting and launching mission-critical software platforms. Demonstrated excellence in leading global engineering teams, spearheading FinTech initiatives, and aligning technology strategies with business goals.
 
-- Engineering Leadership: Scaled and mentored high-performance teams of 20+ engineers across 3 countries.
-- Cloud & Blockchain Expertise: Pioneered cloud infrastructure migrations and blockchain initiatives.
-- Full-Stack Development: Extensive experience in front-end (React, Bootstrap) and back-end (.NET Core, Django, Node.js) technologies, successful launch of 7+ enterprise-grade applications.
-- Cross-functional Leadership: Partnered with C-suite executives to align technology strategies with business goals, resulting in successful product launches, including a $100M TVL token.
+- Engineering Leadership: Cultivated and scaled high-performance teams of 20+ engineers across 3 countries.
+- Cloud & Blockchain Expertise: Orchestrated cloud infrastructure migrations and blockchain initiatives.
+- Full-Stack Development: Mastered front-end (React, Bootstrap) and back-end (.NET Core, Django, Node.js) technologies, propelling 7+ enterprise-grade applications to successful launch.
+- Cross-functional Leadership: Synergized with C-suite executives to harmonize technology strategies with business objectives, culminating in successful product launches, including a $100M TVL token.
 
 ## Experience
 
 ### Senior Software Engineering Manager
 Celsius Network (DeFi & CyberDefense teams) | Mar 2022 - Present
 
-- Launched wrapped token projects, including cxBTC with $100 million TVL. Implemented DeFi yield strategies on Ethereum and Polygon.
-- Led and scaled three international development teams, growing from 15 to 24 engineers across the US, Serbia, and Romania.
-- Spearheaded cross-functional collaboration to launch wrapped token projects backed by proof-of-reserve Chainlink oracles, ensuring regulatory compliance and market fit.
-- Designed and led the integration of MetaMask with the Celsius wallet, improving user experience.
-- Engineered FireBlocks API clients to audit 5M+ customer vaults across 20+ EVM networks, recovering $4M+ in unsupported tokens.
+- Spearheaded wrapped token projects, including cxBTC with $100 million TVL. Implemented DeFi yield strategies on Ethereum and Polygon.
+- Scaled three international development teams from 15 to 24 engineers across the US, Serbia, and Romania.
+- Orchestrated cross-functional collaboration to launch wrapped token projects backed by proof-of-reserve Chainlink oracles, ensuring regulatory compliance and market fit.
+- Spearheaded the integration of MetaMask with the Celsius wallet, elevating user experience.
+- Crafted FireBlocks API clients to audit 5M+ customer vaults across 20+ EVM networks, reclaiming $4M+ in unsupported tokens.
 
 ### Chief Technology Officer
 Royalty Exchange (Denver) | Jan 2020 - Oct 2021
 
-- Orchestrated platform migration to Django REST Framework, ReactJS, Postgres on AWS/Ubuntu, resulting in over 2x system scalability and performance.
-- Integrated payments & payouts using Stripe & Plaid APIs for both credit card & ACH support, decreasing staff support load.
-- Implemented Scrum/agile practices, boosting team efficiency and reducing time-to-market to weekly cadence.
-- Mentored and cultivated a team of developers into technology leaders and key contributors.
-- Launched the first Ethereum NFT product that pays in crypto for real-world (ASCAP/BMI) music royalties.
+- Executed platform migration to Django REST Framework, ReactJS, Postgres on AWS/Ubuntu, doubling system scalability and performance.
+- Integrated payments & payouts using Stripe & Plaid APIs for both credit card & ACH support, streamlining staff support load.
+- Revolutionized team efficiency with Scrum/agile practices, accelerating time-to-market to weekly cadence.
+- Nurtured a team of developers into technology leaders and key contributors.
+- Pioneered the first Ethereum NFT product that pays in crypto for real-world (ASCAP/BMI) music royalties.
 
 ### Director of Technology
 Foundation for Economic Education (Atlanta) | Dec 2015 - Jan 2020
 
-- Recruited and led a high-caliber technology team of developers, designers, QA, and product experts.
-- Spearheaded a $3M social media marketing analytics platform. Open-sourced code and presented at national conferences.
-- Coached teams in domain-driven design using Bootstrap, HTML5, JavaScript ES6, Webpack, and React.
-- Managed RESTful API deployments using ASP.Net across Windows and Linux platforms in AWS.
+- Assembled and led a high-caliber technology team of developers, designers, QA, and product experts.
+- Engineered a $3M social media marketing analytics platform. Open-sourced code and showcased at national conferences.
+- Empowered teams in domain-driven design using Bootstrap, HTML5, JavaScript ES6, Webpack, and React.
+- Orchestrated RESTful API deployments using ASP.Net across Windows and Linux platforms in AWS.
 
 ### Software Architect
 EF Education First (Shanghai) | Jan 2011 - Nov 2015
 
-- Directed agile teams in creating web and mobile applications using .Net/C#, Javascript, ReactJS, & SQL Server.
-- Implemented Scrum, continuous integration, Git, and code review practices.
-- Collaborated on innovative apps with real-time academic performance feeds and media recording features. Built, launched, and maintained three web apps and two mobile apps for internal and external customers.
-- Pioneered migration from on-premise datacenter to Amazon Web Services cloud platform.
+- Steered agile teams in creating web and mobile applications using .Net/C#, Javascript, ReactJS, & SQL Server.
+- Instituted Scrum, continuous integration, Git, and code review practices.
+- Innovated apps with real-time academic performance feeds and media recording features. Architected, launched, and maintained three web apps and two mobile apps for internal and external customers.
+- Trailblazed migration from on-premise datacenter to Amazon Web Services cloud platform.
 
 ### Senior Application Engineer
 Match.com (Dallas) | Aug 2008 - Oct 2010
 
-- First developer on Match.com mobile apps division, writing iOS and Palm (webOS/HTML5/CSS3/Javascript) apps.
-- Engineered mobile apps and secure APIs (C#/.Net/SQL Server) for iPhone, Windows Phone, and Android platforms.
-- Developed a scalable SMS notification platform reaching over 12 million Match.com users.
+- Pioneered Match.com's mobile apps division, crafting iOS and Palm (webOS/HTML5/CSS3/Javascript) apps.
+- Architected mobile apps and secure APIs (C#/.Net/SQL Server) for iPhone, Windows Phone, and Android platforms.
+- Constructed a scalable SMS notification platform reaching over 12 million Match.com users.
 
 ## Notable Projects
 
 ### CelsiusX Wrapped Bitcoin (cxBTC)
-- Pioneered a $100M TVL wrapped Bitcoin asset on Polygon, bridging CeFi and DeFi ecosystems
-- Implemented Chainlink Proof of Reserve for unparalleled transparency and security
-- Engineered real-time, fee-free conversion between native and wrapped assets, boosting liquidity
+- Architected a $100M TVL wrapped Bitcoin asset on Polygon, bridging CeFi and DeFi ecosystems
+- Integrated Chainlink Proof of Reserve for unparalleled transparency and security
+- Crafted real-time, fee-free conversion between native and wrapped assets, amplifying liquidity
 
 ### JellyFish Insights Analytics Platform
-- Architected an open-source, multi-platform social media analytics tool for non-profits
-- Developed custom BI features, empowering organizations with data ownership and advanced reporting
-- Presented at national conferences, showcasing innovative approach to data aggregation and visualization
+- Engineered an open-source, multi-platform social media analytics tool for non-profits
+- Innovated custom BI features, empowering organizations with data ownership and advanced reporting
+- Showcased at national conferences, highlighting innovative approach to data aggregation and visualization
 
 ### Match.com Mobile Ecosystem
-- Spearheaded Match.com's mobile API architecture, developing secure, versioned APIs for iOS, Android, WebOs, and Windows Phone
-- Built high-performance SMS system reaching 12M+ users, driving engagement and retention
-- Optimized API and implemented caching, improving app performance by 5x+
+- Architected Match.com's mobile API infrastructure, crafting secure, versioned APIs for iOS, Android, WebOs, and Windows Phone
+- Engineered high-performance SMS system reaching 12M+ users, boosting engagement and retention
+- Optimized API and implemented caching, supercharging app performance by 5x+
 
 ## Education
 
